@@ -1,0 +1,285 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050B1A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="22dp"
+        android:paddingBottom="28dp">
+
+        <!-- Futuristic command-centre header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_brand_icon"
+                android:gravity="center"
+                android:text="R"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RETINACARE AI"
+                    android:textColor="#EAFBFF"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.08" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VISION ANALYTICS CONTROL SYSTEM"
+                    android:textColor="#69D9F4"
+                    android:textSize="9sp"
+                    android:letterSpacing="0.12" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_offline_pill"
+                android:paddingStart="11dp"
+                android:paddingEnd="11dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="● OFFLINE"
+                android:textColor="#63F5D0"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Neon hero panel -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/bg_hero_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="●  SYSTEM ONLINE     /     MODULE 01"
+                android:textColor="#69E9F5"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.10" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="Retinal Intelligence\nScreening Console"
+                android:textColor="#F2FCFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="2dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Upload a fundus image to run retinal validation, sharpness screening and AI-assisted DR analysis."
+                android:textColor="#B5D6E7"
+                android:textSize="13sp"
+                android:lineSpacingExtra="3dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_offline_chip"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:text="LOCAL INFERENCE  •  NO CLOUD UPLOAD"
+                android:textColor="#8DEBFA"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.06" />
+        </LinearLayout>
+
+        <!-- Image acquisition -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="01  /  IMAGE INPUT"
+            android:textColor="#70DDF3"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.14" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_surface_card"
+            android:orientation="vertical"
+            android:padding="13dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FUNDUS IMAGE VIEWPORT"
+                android:textColor="#8BAFC5"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.13"
+                android:paddingBottom="9dp" />
+            <ImageView
+                android:id="@+id/previewImage"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:background="@drawable/bg_image_placeholder"
+                android:contentDescription="Selected retinal fundus image"
+                android:scaleType="fitCenter" />
+            <Button
+                android:id="@+id/chooseButton"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="13dp"
+                android:backgroundTint="#087FAD"
+                android:text="＋  SELECT RETINAL IMAGE"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="SUPPORTED INPUT  •  JPG / JPEG / PNG"
+                android:textColor="#66869C"
+                android:textSize="9sp"
+                android:letterSpacing="0.07" />
+        </LinearLayout>
+
+        <!-- Screening result -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="02  /  ANALYSIS OUTPUT"
+            android:textColor="#70DDF3"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.14" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_surface_card"
+            android:orientation="vertical"
+            android:padding="17dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODEL STATUS  /  BINARY DR CLASSIFIER"
+                android:textColor="#80A6BC"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.10" />
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Awaiting retinal image..."
+                android:textColor="#E9FAFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="13dp"
+                android:background="#25465D" />
+            <TextView
+                android:id="@+id/scoresText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Validation metrics and prediction confidence will appear here."
+                android:textColor="#B5D1E0"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- Explanation viewport -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="03  /  MODEL EXPLANATION"
+            android:textColor="#70DDF3"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.14" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_surface_card"
+            android:orientation="vertical"
+            android:padding="13dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GRAD-CAM ACTIVATION MAP"
+                android:textColor="#DDF8FF"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.06" />
+            <ImageView
+                android:id="@+id/explanationImage"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/bg_image_placeholder"
+                android:contentDescription="Grad-CAM heatmap overlay"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CYAN / BLUE  →  lower activation       YELLOW / RED  →  higher activation"
+                android:textColor="#86C9DB"
+                android:textSize="10sp"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+
+        <!-- Disclaimer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/bg_disclaimer"
+            android:padding="14dp"
+            android:text="RESEARCH PROTOTYPE  •  This application is not a medical diagnosis. Consult a qualified eye-care professional for clinical assessment."
+            android:textColor="#F2D8A0"
+            android:textSize="11sp"
+            android:lineSpacingExtra="3dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="RETINACARE AI  •  OFFLINE VISION SYSTEM"
+            android:textColor="#55758B"
+            android:textSize="9sp"
+            android:letterSpacing="0.12" />
+    </LinearLayout>
+</ScrollView>

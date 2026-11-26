@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable bg_brand_icon
+drawable bg_card
+drawable bg_disclaimer
+drawable bg_hero_card
+drawable bg_image_placeholder
+drawable bg_logo
+drawable bg_notice
+drawable bg_offline_chip
+drawable bg_offline_pill
+drawable bg_surface_card
+id chooseButton
+id explanationImage
+id previewImage
+id resultText
+id scoresText
+layout activity_main
+style AppTheme

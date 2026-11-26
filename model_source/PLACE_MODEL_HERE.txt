@@ -1,0 +1,1 @@
+Copy aptos_binary_efficientnetb0.keras into this folder. The trained model is not included in this ZIP.

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.droffline.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.droffline.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_hero_card.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_hero_card.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_brand_icon.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_brand_icon.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_notice.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_notice.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_image_placeholder.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_image_placeholder.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_surface_card.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_surface_card.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_offline_chip.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_offline_chip.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_offline_pill.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_offline_pill.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_card.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_disclaimer.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_disclaimer.xml"
+    },
+    {
+        "merged": "com.example.droffline.app-debug-32:/drawable_bg_logo.xml.flat",
+        "source": "com.example.droffline.app-main-34:/drawable/bg_logo.xml"
+    }
+]

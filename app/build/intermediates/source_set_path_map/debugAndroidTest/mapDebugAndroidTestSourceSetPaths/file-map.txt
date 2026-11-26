@@ -1,0 +1,4 @@
+com.example.droffline.test.app-androidTest-0 D:\DR_Android_With_Explainability(blue-canon)\app\build\generated\res\resValues\androidTest\debug
+com.example.droffline.test.app-mergeDebugAndroidTestResources-1 D:\DR_Android_With_Explainability(blue-canon)\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.droffline.test.app-mergeDebugAndroidTestResources-2 D:\DR_Android_With_Explainability(blue-canon)\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.droffline.test.app-debugAndroidTest-3 D:\DR_Android_With_Explainability(blue-canon)\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
